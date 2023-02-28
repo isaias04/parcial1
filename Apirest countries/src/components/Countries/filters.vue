@@ -17,7 +17,7 @@ export default {
     data() {
         return{
             allRegions:
-            ['All', 'Europe', 'Asia', 'Africa','Americas',
+            ['Todo', 'Europe', 'Asia', 'Africa','Americas',
             'Oceania', 'Antarctic']
         }
     },
