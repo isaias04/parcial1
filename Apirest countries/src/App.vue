@@ -1,9 +1,8 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
 
 <template>
+  <NavComp />
   <div>
+   
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -14,6 +13,16 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
 </template>
 
+<script>
+import NavComp from "/src/components/NavComp.vue"
+export default {
+  name: "App",
+  components:{
+    NavComp
+  }
+}
+
+</script>
 <style scoped>
 .logo {
   height: 6em;
